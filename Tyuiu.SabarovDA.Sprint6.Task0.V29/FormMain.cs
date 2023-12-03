@@ -31,6 +31,7 @@ namespace Tyuiu.SabarovDA.Sprint6.Task0.V29
         {
             DataService ds = new DataService();
             try
+
             {
                 textBoxResult_SDA.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxB_SDA.Text)));
             }

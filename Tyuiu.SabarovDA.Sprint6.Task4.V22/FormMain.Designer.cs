@@ -31,12 +31,12 @@ namespace Tyuiu.SabarovDA.Sprint6.Task4.V22
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxTask_SDA = new System.Windows.Forms.GroupBox();
             this.textBoxTask_SDA = new System.Windows.Forms.TextBox();
             this.groupBoxOutPutData_SDA = new System.Windows.Forms.GroupBox();
@@ -109,16 +109,16 @@ namespace Tyuiu.SabarovDA.Sprint6.Task4.V22
             // 
             // chartFunction_SDA
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartFunction_SDA.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartFunction_SDA.Legends.Add(legend1);
+            chartArea3.Name = "ChartArea1";
+            this.chartFunction_SDA.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartFunction_SDA.Legends.Add(legend3);
             this.chartFunction_SDA.Location = new System.Drawing.Point(114, 59);
             this.chartFunction_SDA.Name = "chartFunction_SDA";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunction_SDA.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartFunction_SDA.Series.Add(series3);
             this.chartFunction_SDA.Size = new System.Drawing.Size(249, 147);
             this.chartFunction_SDA.TabIndex = 0;
             this.chartFunction_SDA.Text = "chart1";
@@ -238,17 +238,17 @@ namespace Tyuiu.SabarovDA.Sprint6.Task4.V22
             // 
             // chartResult_SDA
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartResult_SDA.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartResult_SDA.Legends.Add(legend2);
+            chartArea4.Name = "ChartArea1";
+            this.chartResult_SDA.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chartResult_SDA.Legends.Add(legend4);
             this.chartResult_SDA.Location = new System.Drawing.Point(6, 9);
             this.chartResult_SDA.Name = "chartResult_SDA";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartResult_SDA.Series.Add(series2);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chartResult_SDA.Series.Add(series4);
             this.chartResult_SDA.Size = new System.Drawing.Size(637, 341);
             this.chartResult_SDA.TabIndex = 0;
             this.chartResult_SDA.Text = "График функции";
